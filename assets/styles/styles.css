@@ -32,6 +32,14 @@ nav li {
 
 main * {
   margin-top: 20px;
+  font-size: 24px;
+}
+
+footer {
+    background-color: darkslateblue;
+    text-align: center;
+    margin-top: 2.5%;
+    padding: 15px;
 }
 
 .project-card {
@@ -41,9 +49,11 @@ main * {
   margin: 5px;
   height: 150px;
   width: 300px;
-  background-color: white;
-  background-image: url(../images/brock-small.jpeg);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(white, grey);
+}
+
+.project-card img {
+  height: 100%;
 }
 
 .card-text-window {
@@ -54,22 +64,31 @@ main * {
   text-decoration: underline;
 }
 
-#first {
-  height: 300px;
-  width: 600px;
-}
-
-#about {
-  text-align: center;
-}
-
+#about,
 #projects {
   margin: 0 15px 20px 15px;
   text-align: center;
+}
+
+#contact {
+    text-align: center;
+    margin: 0;
 }
 
 #cards {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+
+#first {
+  height: 300px;
+  width: 600px;
+  background-image: url(../images/zoom-fall-background.jpg);
+  background-size: cover;
+}
+
+#second {
+  background-image: url(../images/zoom-fall-background.jpg);
+  background-size: cover;
 }

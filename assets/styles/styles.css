@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #241f47;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  background-color: darkslateblue;
+  color: white;
+}
+
+header h1 {
+  margin-left: 10px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+nav li {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+main * {
+  margin-top: 20px;
+}
+
+#about {
+  text-align: center;
+}
+
+#projects {
+  margin: 0 15px 20px 15px;
+  text-align: center;
+}
+
+#cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.project-card {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin: 5px;
+  height: 150px;
+  width: 300px;
+  background-color: white;
+  background-image: url(../images/brock-small.jpeg);
+  background-repeat: no-repeat;
+}
+
+.card-text-window {
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    text-decoration: underline;
+}
+
+#first {
+  height: 300px;
+  width: 600px;
+}

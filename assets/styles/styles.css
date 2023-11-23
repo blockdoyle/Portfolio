@@ -70,6 +70,12 @@ footer {
   text-align: center;
 }
 
+#projects {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
 #contact {
     text-align: center;
     margin: 0;

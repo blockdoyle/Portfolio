@@ -94,3 +94,56 @@ footer {
   background-image: url(../images/module-1.png);
   background-size: cover;
 }
+
+/* Existing styles here */
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  header h1 {
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+  }
+
+  nav li {
+    margin: 5px 10px;
+  }
+
+  main * {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  footer {
+    margin-top: 5%;
+  }
+
+  #about,
+  #projects {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #first {
+    width: 98%;
+    height: 150px;
+    background-size: cover;
+  }
+
+  #cards {
+    flex-flow: column wrap;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+  
+  /* Add more specific adjustments as needed */
+}

@@ -28,6 +28,7 @@ nav ul {
 nav li {
   margin-right: 5px;
   margin-left: 5px;
+  font-size: 24px;
 }
 
 main * {
@@ -70,6 +71,12 @@ footer {
   text-align: center;
 }
 
+#projects {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
 #contact {
     text-align: center;
     margin: 0;
@@ -84,11 +91,6 @@ footer {
 #first {
   height: 300px;
   width: 600px;
-  background-image: url(../images/zoom-fall-background.jpg);
-  background-size: cover;
-}
-
-#second {
-  background-image: url(../images/zoom-fall-background.jpg);
+  background-image: url(../images/module-1.png);
   background-size: cover;
 }
